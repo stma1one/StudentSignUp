@@ -8,10 +8,11 @@
         <Entry x:Name="EntClass" Placeholder="Class " Text="{Binding Class}" />
         <Label x:Name="LblClassNo" Text="Class Number:"></Label>
         <Entry x:Name="EntClassNo" Placeholder="Class Number " Text="{Binding ClassNo}" />
-        <Label x:Name="LblCLoveMath" Text="Love Math:"></Label>
-        <Switch x:Name="SwMath" IsToggled="{Binding LikeMath}" BackgroundColor="Coral" />
+        <Label x:Name="LblCLoveMath"  Text="Love Math:"></Label>
+        <Switch x:Name="SwMath" OnColor="Orange"
+        ThumbColor="Green" IsToggled="{Binding LikeMath}"  />
         <Label x:Name="LblCLoveCs" Text="Love Computer Science:"></Label>
-        <Switch x:Name="SwCs" IsToggled="{Binding LikeCs}"  BackgroundColor="Coral"/>
+        <Switch x:Name="SwCs"  OnColor="Orange" ThumbColor="Green" IsToggled="{Binding LikeCs}" />
         <Button Text="סיכום" VerticalOptions="EndAndExpand" TextColor="Black" FontAttributes="Bold" FontSize="20"  Clicked="Button_Clicked" />
 
 

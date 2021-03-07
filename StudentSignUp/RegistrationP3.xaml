@@ -36,9 +36,11 @@
         </Label>
 
         <Label x:Name="LblCLoveMath" FontSize="18" Text="Love Math:"></Label>
-        <Switch x:Name="SwMath"  IsToggled="{Binding LikeMath}" IsEnabled="False" BackgroundColor="Coral"  />
+        <Switch x:Name="SwMath"  IsToggled="{Binding LikeMath}" OnColor="Orange"
+        ThumbColor="Green" IsEnabled="False"  />
         <Label x:Name="LblCLovCs" FontSize="18" Text="Love Computer Science:"></Label>
-        <Switch x:Name="SwCs"  IsToggled="{Binding LikeCs}" IsEnabled="False" BackgroundColor="Coral" />
+        <Switch x:Name="SwCs"  IsToggled="{Binding LikeCs}" OnColor="Orange"
+        ThumbColor="Green" IsEnabled="False"  />
         <Button Text="שמור" TextColor="Black" FontAttributes="Bold" VerticalOptions="EndAndExpand" FontSize="20" />
 
 
